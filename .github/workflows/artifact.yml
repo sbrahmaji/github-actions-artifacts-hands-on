@@ -24,7 +24,7 @@ jobs:
     needs: build
     steps:
      - name: download artifacts
-       uses: action/download-artifact@v2
+       uses: actions/download-artifact@v2
        with:
          name: hello-artifact
          path: ./artifacts
